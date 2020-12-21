@@ -364,11 +364,9 @@ window.respecVersion="25.16.5",function(){"use strict";window.addEventListener("
           <a
             href="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/document/change-and-release-management-policy-dcat-ap"
             >new features</a
-          >.`:""}`,r="LS"===e.pubMode?`Comments are welcome at any time but most especially before ${e.humanCREnd}.`:`This Candidate Recommendation is not expected to advance to Proposed Recommendation any earlier than ${e.humanCREnd}.`):e.isPR?r=nn` Interested parties are
+          >.`:""}`,r="LS"===e.pubMode?`Comments are welcome at any time but most especially before ${e.humanCREnd}.`:`This Candidate Recommendation is not expected to advance to Proposed Recommendation any earlier than ${e.humanCREnd}.`):"LC"===e.specStatus?r=nn` Interested parties are
       invited to review the document and send comments through
-      ${e.humanPREnd}.
-      Note that substantive technical comments were expected during the
-      Candidate Recommendation review period that ended ${e.humanCREnd}.`:e.isPER&&(r=nn``);return nn`<p>
+      ${e.humanPREnd}.`:(e.isPR||e.isPER)&&(r=nn``);return nn`<p>
       Publication as ${e.anOrA} ${e.textStatus} does not imply endorsement
       by the European Commission. ${t}
     </p>

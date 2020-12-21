@@ -148,12 +148,19 @@ function renderNotRec(conf) {
     } else {
       reviewPolicy = `This Candidate Recommendation is not expected to advance to Proposed Recommendation any earlier than ${conf.humanCREnd}.`;
     }
-  } else if (conf.isPR) {
+  } else if (conf.specStatus === "LC") {
     reviewPolicy = html` Interested parties are
       invited to review the document and send comments through
-      ${conf.humanPREnd}.
+      ${conf.humanPREnd}.`; 
+  } else if (conf.isPR) {
+    reviewPolicy = html``;
+/*
+    reviewPolicy = html` Interested parties are
+      invited to review the document and send comments through
+      ${conf.humanPREnd}. 
       Note that substantive technical comments were expected during the
       Candidate Recommendation review period that ended ${conf.humanCREnd}.`;
+*/
   } else if (conf.isPER) {
     reviewPolicy = html``;
   }
