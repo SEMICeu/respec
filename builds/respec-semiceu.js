@@ -331,8 +331,8 @@ window.respecVersion="25.16.5",function(){"use strict";window.addEventListener("
                 ${e.sotdAfterWGinfo?t.additionalContent:""}
                 ${e.isRec?function({updateableRec:e,revisionTypes:t=[],humanRevisedRecEnd:n}){let r="";t.includes("addition")&&(r="additions");t.includes("correction")&&!r&&(r="corrections");return nn`<p>
       A Recommendation is a specification that, after extensive
-      consensus-building, has received the endorsement of the European Commission and EU
-      Member States. The European Commission recommends the wide deployment of this specification.
+      consensus-building, has received the endorsement of the Working Group. 
+      The Working Group recommends the wide deployment of this specification.
       ${e?nn`Future updates to this Recommendation may incorporate
             <a
               href="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/document/change-and-release-management-policy-dcat-ap"

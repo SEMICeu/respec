@@ -186,8 +186,8 @@ function renderIsRec({
   }
   return html`<p>
       A Recommendation is a specification that, after extensive
-      consensus-building, has received the endorsement of the European Commission and EU
-      Member States. The European Commission recommends the wide deployment of this specification.
+      consensus-building, has received the endorsement of the Working Group. 
+      The Working Group recommends the wide deployment of this specification.
       ${updateableRec
         ? html`Future updates to this Recommendation may incorporate
             <a
