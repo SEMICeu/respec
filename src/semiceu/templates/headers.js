@@ -256,7 +256,7 @@ function renderCopyright(conf) {
 
 function renderOfficialCopyright(conf) {
   return html`<p class="copyright">
-    <a href="https://europa.eu/european-union/abouteuropa/legal_notices_en#copyright_notice"
+    <a href="https://europa.eu/european-union/abouteuropa/legal_notices_en#copyright-notice"
       >Copyright</a
     >
     &copy;

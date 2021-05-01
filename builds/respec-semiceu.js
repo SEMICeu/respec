@@ -165,7 +165,7 @@ window.respecVersion="25.16.5",function(){"use strict";window.addEventListener("
           This document is licensed under a
           ${Ho("Creative Commons Attribution 4.0 License",qo,"subfoot")}.
         </p>`:e.overrideCopyright?[e.overrideCopyright]:function(e){return nn`<p class="copyright">
-    <a href="https://europa.eu/european-union/abouteuropa/legal_notices_en#copyright_notice"
+    <a href="https://europa.eu/european-union/abouteuropa/legal_notices_en#copyright-notice"
       >Copyright</a
     >
     &copy;
